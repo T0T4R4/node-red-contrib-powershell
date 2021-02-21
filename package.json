@@ -1,6 +1,12 @@
 {
   "name": "node-red-contrib-powershell",
-  "repository":"https://github.com/T0T4R4/node-red-contrib-powershell.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T0T4R4/node-red-contrib-powershell.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "version": "0.0.4",
   "description": "Provides powershell functionality in node-red",
   "scripts": {
@@ -19,8 +25,5 @@
   ],
   "dependencies": {
     "node-powershell": "^4.0.0"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
-  },
+  }
 }
